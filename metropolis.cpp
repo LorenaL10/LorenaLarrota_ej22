@@ -5,23 +5,34 @@
 using std::cout;
 using std::endl;
 
-void metropolis();
+void metropolis(int N=1000);
 
 int main(){
-    int N=1000;
-    int f=exp(-x*x/2);
-    srand48(5);
+    float f(float x){
+        return exp(x*x/2)
+    }
+    int N;
+    metropolis (N)
+    cout << dato << " " << intento << endl;
+}
+return 0
+}
     
     
-void metropolis{
+void metropolis(int N=1000)
+{
 for(i=0;i<N;i++){ 
-    
-        float propuesta  = drand48() + drand48()
-        float alpha = drand48()
-        if(alpha<propuesta):
-            lista.append(propuesta)
-        else:
-            lista.append(lista[i-1])
-    return np.array(lista)
+   srand48(5);
+   float dato;  
+   float propuesta  = drand48() + drand48()
+   float alpha = drand48()
+        if(alpha<propuesta){
+            dato+=propuesta;
+        }
+        else{
+            dato+=alpha
+        }
+    *dato=dato;
+    *intento=i;
     }
   }
